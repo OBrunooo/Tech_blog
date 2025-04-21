@@ -48,17 +48,37 @@
             <path
                 d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" />
         </svg>
-
-        <a class="menu__item" href="#">- Front-end</a>
-        <a class="menu__item" href="#">Back-end</a>
-        <a class="menu__item" href="#">Arquitetura</a>
-        <a class="menu__item" href="#">Inteligência artificial</a>
-        <a class="menu__item" href="#">Dados</a>
+        <span id="article" class="menu__item menu__item__active" href="#">- Todos</span>
+        <span onclick="" class="menu__item" href="#">Front-end</span>
+        <span class="menu__item" href="#">Back-end</span>
+        <span id="python" class="menu__item" href="#">- Python</span>
+        <span class="menu__item" href="#">Arquitetura</span>
+        <span class="menu__item" href="#">Inteligência artificial</span>
+        <span class="menu__item" href="#">Dados</span>
     </div>
-    <div class="articles">
-        <div class="article"></div>
-        <div class="article"></div>
+    <div id="articles" class="articles">
+        <div class="python article">
+            <img class="article__img" src="images/articles/python__img.png" alt="">
+            <div class="article__content">
+                <h3 class="article__content__title">Python para iniciantes py</h3>
+                <p class="article__content__text">Python é a linguagem de programação mais popular que existe e é usada em muitos setores diferentes.</p>
+                <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></p>
+            </div>
+        </div>
+        <div class="test article">
+            <img class="article__img" src="images/articles/python__img.png" alt="">
+            <div class="article__content">
+                <h3 class="article__content__title">Python para iniciantes</h3>
+                <p class="article__content__text">Python é a linguagem de programação mais popular que existe e é usada em muitos setores diferentes.</p>
+                <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></p>
+            </div>
+        </div>
     </div>
 </body>
+<script src="main.js" ></script>
 
 </html>
