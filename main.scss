@@ -97,7 +97,7 @@ body {
         .menu__item__active {
             color: #FF7575;
         }
-        
+
     }
 
     .articles {
@@ -106,6 +106,7 @@ body {
         margin-top: 20px;
         grid-template-columns: 85%;
         justify-content: center;
+        margin-bottom: 50px;
 
         .article {
             margin-bottom: 5%;
@@ -119,7 +120,7 @@ body {
                 display: block;
                 object-fit: cover;
             }
-            
+
             .article__content {
                 background-color: #fff;
                 border-bottom-right-radius: 15px;
@@ -129,14 +130,14 @@ body {
                 padding: 0 5%;
                 padding-top: 3%;
                 padding-bottom: 1%;
-    
+
                 .article__content__title {
                     width: 95%;
                     padding-top: 1vw;
                     font-size: 5.5vw;
                     display: flex;
                 }
-                
+
                 .article__content__text {
                     font-size: 4.5vw;
                     color: #777E90;
@@ -145,13 +146,14 @@ body {
                 .article__content__link {
                     color: #FF7575;
                 }
+
                 .article__content__link {
                     .article__content__link__icon {
                         position: relative;
                         left: 0px;
                         transition: 100ms;
                     }
-        
+
                     .article__content__link__icon__click {
                         left: 50px !important;
                         transition: 400ms;
@@ -159,9 +161,52 @@ body {
                 }
             }
         }
-        
-        
 
+
+
+    }
+
+    .footer {
+        border-top: 1px solid #4D4D4D;
+        height: 50px;
+        color: #fff;
+        padding-top: 10px;
+
+        .footer__content {
+            width: 90%;
+            margin: 0 auto;
+            .footer__content__links {
+                display: flex;
+                justify-content: center;
+
+                .footer__content__links__link {
+                    margin-bottom: 15px;
+                    
+                    a {
+                        display: flex;
+                        color: #fff;
+                        text-decoration: none;
+                        justify-content: center;
+                        text-align: center;
+                        vertical-align:middle;
+                        border-radius: 50%;
+
+                        svg {
+                            width: 10vw;
+                            margin: 2vw;
+                        }
+                    }
+                }
+            }
+            p{
+                text-align: center;
+                font-size: 4.5vw;
+                padding-bottom: 5px;
+                span {
+                    color: #FF7575;
+                }
+            }
+        }
     }
 }
 

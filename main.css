@@ -91,6 +91,7 @@ body {
     margin-top: 20px;
     grid-template-columns: 85%;
     justify-content: center;
+    margin-bottom: 50px;
   }
   .articles .article {
     margin-bottom: 5%;
@@ -135,6 +136,44 @@ body {
   .articles .article .article__content .article__content__link .article__content__link__icon__click {
     left: 50px !important;
     transition: 400ms;
+  }
+  .footer {
+    border-top: 1px solid #4D4D4D;
+    height: 50px;
+    color: #fff;
+    padding-top: 10px;
+  }
+  .footer .footer__content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer .footer__content .footer__content__links {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__content .footer__content__links .footer__content__links__link {
+    margin-bottom: 15px;
+  }
+  .footer .footer__content .footer__content__links .footer__content__links__link a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  .footer .footer__content .footer__content__links .footer__content__links__link a svg {
+    width: 10vw;
+    margin: 2vw;
+  }
+  .footer .footer__content p {
+    text-align: center;
+    font-size: 4.5vw;
+    padding-bottom: 5px;
+  }
+  .footer .footer__content p span {
+    color: #FF7575;
   }
 }
 
