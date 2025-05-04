@@ -18,6 +18,7 @@ addEventListener("DOMContentLoaded", function () {
 
     const all_articles = Array.from(document.getElementsByClassName("article"))
     const menu_select = Array.from(document.getElementsByClassName("menu__item"))
+    const no_article = document.getElementById("no_article")
 
     function reset_menu(e){
         for(let i = 0; i<menu_select.length;i++ ) {
@@ -36,12 +37,16 @@ addEventListener("DOMContentLoaded", function () {
     }
 
     function filter (e) {
-
         for(let i = 0; i < all_articles.length; i++ ) {
             all_articles[i].style.display = "none"
         }
         for(let i = 0; i < e.length; i++ ) {
             e[i].style.display = "block"
+        }
+        if(e.length == 0){
+            no_article.style.display = "block"
+        }else {
+            no_article.style.display = "none"
         }
     }
 
