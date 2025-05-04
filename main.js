@@ -35,11 +35,6 @@ addEventListener("DOMContentLoaded", function () {
         })
     }
 
-
-
-
-
-
     function filter (e) {
 
         for(let i = 0; i < all_articles.length; i++ ) {
