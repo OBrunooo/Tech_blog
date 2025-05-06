@@ -25,13 +25,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li id="first_item" class="nav-item">
-                        <a class="nav-link" href="#">Categorias</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Categorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#container_article">Artigos</a>
                     </li>
                 </ul>
             </div>
@@ -50,21 +47,31 @@
         </svg>
         <span id="article" class="menu__item menu__item__active" href="#">- Todos</span>
         <span id="front-end" class="menu__item" href="#">Front-end</span>
-        <span class="menu__item" href="#">Back-end</span>
+        <span id="back-end" class="menu__item" href="#">Back-end</span>
         <span id="python" class="menu__item" href="#">Python</span>
-        <span class="menu__item" href="#">Arquitetura</span>
-        <span class="menu__item" href="#">Inteligência artificial</span>
+        <span id="arquitetura" class="menu__item" href="#">Arquitetura</span>
+        <span id="inteligencia_artificial" class="menu__item" href="#">Inteligência artificial</span>
         <span id="dados" class="menu__item" href="#">Dados</span>
     </div>
-    <div class="articles">
+    <div id="container_article" class="articles">
         <div id="no_article">
             <p>Sem artigos para esta categoria.</p>
         </div>
-        <div class="python article">
-            <img class="article__img" src="images/articles/python__img.png" alt="">
+        <div class="front-end article">
+            <img class="article__img" src="images/articles/front_end.jpg" alt="">
             <div class="article__content">
-                <h3 class="article__content__title">Python para iniciantes</h3>
-                <p class="article__content__text">Python é a linguagem de programação mais popular que existe e é usada em muitos setores diferentes.</p>
+                <h3 class="article__content__title">Front-end moderno</h3>
+                <p class="article__content__text">Crie interfaces web com HTML, CSS e JS. A base visual da web evolui com novas ferramentas.</p>
+                <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></p>
+            </div>
+        </div>
+        <div class="back-end article">
+            <img class="article__img" src="images/articles/back_end.jpg" alt="">
+            <div class="article__content">
+                <h3 class="article__content__title">Back-end eficiente</h3>
+                <p class="article__content__text">APIs, bancos de dados e lógica do servidor. O motor por trás de qualquer aplicação.</p>
                 <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                   </svg></p>
@@ -80,21 +87,31 @@
                   </svg></p>
             </div>
         </div>
-        <div class="dados article">
-            <img class="article__img" src="images/articles/python__img.png" alt="">
+        <div class="arquitetura article">
+            <img class="article__img" src="images/articles/arquitetura.jpeg" alt="">
             <div class="article__content">
-                <h3 class="article__content__title">Python para iniciantes</h3>
-                <p class="article__content__text">Python é a linguagem de programação mais popular que existe e é usada em muitos setores diferentes.</p>
+                <h3 class="article__content__title">Arquitetura de software</h3>
+                <p class="article__content__text">Organize seu código para escalar melhor. Uma boa estrutura evita retrabalho.</p>
+                <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></p>
+            </div>
+        </div>
+        <div class="inteligencia_artificial article">
+            <img class="article__img" src="images/articles/ia.png" alt="">
+            <div class="article__content">
+                <h3 class="article__content__title">Inteligência artificial</h3>
+                <p class="article__content__text">IA está presente em apps, sites e automações. Aprenda como ela funciona.</p>
                 <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                   </svg></p>
             </div>
         </div>
         <div class="dados article">
-            <img class="article__img" src="images/articles/python__img.png" alt="">
+            <img class="article__img" src="images/articles/data.jpg" alt="">
             <div class="article__content">
-                <h3 class="article__content__title">Python para iniciantes</h3>
-                <p class="article__content__text">Python é a linguagem de programação mais popular que existe e é usada em muitos setores diferentes.</p>
+                <h3 class="article__content__title">Dados e decisões</h3>
+                <p class="article__content__text">Com dados certos, decisões são mais inteligentes. Explore esse novo petróleo.</p>
                 <p id="content__link" class="article__content__link">Ler mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right article__content__link__icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                   </svg></p>
